@@ -452,40 +452,6 @@ Log type = error
 * Exception handling
 * STL
 
----
-
-# Project Structure
-
-A possible project structure is:
-
-```text
-Project/
-│
-├── Hardware Info/
-│   ├── main.py
-│   ├── host_info.py
-│   ├── linux_host.py
-│   └── windows_host.py
-│
-├── Filter Inventory/
-│   ├── main.cpp
-│   ├── inventory.cpp
-│   ├── inventory.h
-│   └── inventory.json
-│
-├── Log Parsing/
-│   ├── main.cpp
-│   ├── log_parser.cpp
-│   ├── log_parser.h
-│   └── *.log
-│
-└── README.md
-```
-
-The exact filenames may differ depending on the implementation.
-
----
-
 # Concepts Demonstrated
 
 ## Object-Oriented Programming
